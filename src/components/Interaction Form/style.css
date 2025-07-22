@@ -1,0 +1,7 @@
+.PhoneInputInput input:focus{
+    outline: none !important;
+}
+
+.react-datepicker-wrapper{
+    width: 80%!important;
+}

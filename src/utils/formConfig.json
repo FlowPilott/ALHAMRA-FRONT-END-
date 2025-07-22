@@ -1,0 +1,95 @@
+{
+    "formFields": {
+      "date": {
+        "label": "Date",
+        "type": "date"
+      },
+      "customerType": {
+        "label": "Customer Type",
+        "type": "radio",
+        "options": [
+          { "value": "Internal", "label": "Internal" },
+          { "value": "External", "label": "External" }
+        ]
+      },
+      "typeSel": {
+        "label": "Choose Option",
+        "type": "select",
+        "options": {
+          "Internal": [
+            { "value": "Service Provider", "label": "Service Provider" },
+            { "value": "Other Departments", "label": "Other Departments" },
+            { "value": "Staff", "label": "Staff" }
+          ],
+          "External": [
+            { "value": "Third-Party Contractor", "label": "Third-Party Contractor" },
+            { "value": "Owner", "label": "Owner" },
+            { "value": "Tenant", "label": "Tenant" }
+          ]
+        }
+      },
+     
+      "unitNumber": {
+        "label": "Unit Number",
+        "type": "select",
+        "required": true
+      },
+      "projectName": {
+        "label": "Project Name",
+        "type": "text"
+      },
+      "customerName": {
+        "label": "Owner Name",
+        "type": "text",
+        "required": true
+      },
+      "emailAddress": {
+        "label": "Email Address",
+        "type": "email",
+        "required": true
+      },
+      "contactNumber": {
+        "label": "Contact Number(s)",
+        "type": "phone",
+        "required": true
+      },
+      "typeOfInteraction": {
+        "label": "Type of Interaction",
+        "type": "select",
+        "required": true,
+        "options": [
+          { "value": "Walk-in", "label": "Walk-in" },
+          { "value": "Site Visit", "label": "Site Visit" },
+          { "value": "Telecom – Inbound", "label": "Telecom – Inbound" },
+          { "value": "Telecom – Outbound", "label": "Telecom – Outbound" },
+          { "value": "Email", "label": "Email" },
+          { "value": "Notice of Violation (NOV)", "label": "Notice of Violation (NOV)" },
+          { "value": "Referred by Other Department", "label": "Referred by Other Department" }
+        ]
+      },
+      "purposeOfInteraction": {
+        "label": "Purpose of Interaction",
+        "type": "select",
+        "required": true
+      },
+      "followUp": {
+        "label": "Follow-up Required",
+        "type": "radio",
+        "options": [
+          { "value": "true", "label": "Yes" },
+          { "value": "false", "label": "No" }
+        ]
+      },
+      "followUpDate": {
+        "label": "Follow-up Date",
+        "type": "date"
+      },
+      "remarks": {
+        "label": "Remarks",
+        "type": "textarea"
+      }
+    }
+  }
+
+
+  
